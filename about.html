@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — SecondLife</title>
+
+  <!-- твой style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (та же что на главной) -->
+<header class="navbar">
+  <div class="logo">SecondLife</div>
+
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+  <h1>About SecondLife</h1>
+  <p>Building a culture of reuse and conscious consumption.</p>
+</section>
+
+
+<!-- ABOUT CONTENT -->
+<section class="about-page">
+
+  <div class="container">
+
+    <p>
+      <strong>SecondLife</strong> is a community initiative created to reduce waste and promote conscious consumption through item exchange.
+    </p>
+
+    <p>
+      We noticed that many usable items are thrown away simply because people do not know where to give them a second life. At the same time, others need these items but continue buying new ones. This gap inspired us to create a simple point-based exchange system that makes reuse convenient, fair, and accessible.
+    </p>
+
+    <p>
+      We started by testing our idea through a Telegram community, where early users are already exchanging items and helping us improve the concept. This real interaction allows us to understand user behavior and build a platform based on trust and sustainability.
+    </p>
+
+    <p>
+      Our goal is not only to create a service, but to build a culture where reuse becomes a normal part of everyday life.
+    </p>
+
+    <h2>Our Values</h2>
+
+    <div class="values">
+      <div class="value-card">
+        <h3>Community</h3>
+        <p>Connecting people through sharing and mutual support.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Sustainability</h3>
+        <p>Reducing waste and extending the life cycle of products.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Simplicity</h3>
+        <p>Making reuse convenient and accessible for everyone.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<script>
+    const cards = document.querySelectorAll(".value-card");
+    
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    });
+    
+    cards.forEach(card => observer.observe(card));
+    </script>
+    
+</body>
+
+</html>

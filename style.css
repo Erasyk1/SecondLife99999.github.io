@@ -1,0 +1,426 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#ffffff;
+    color:#111;
+    line-height:1.6;
+  }
+  section{
+    max-width:900px;
+    margin:auto;
+    padding:60px 20px;
+  }
+  h1,h2{
+    margin-bottom:15px;
+  }
+  .hero{
+    text-align:center;
+    padding:100px 20px;
+  }
+  .btn{
+    display:inline-block;
+    padding:12px 20px;
+    margin:10px;
+    background:#b7ff00;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+  }
+  .footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #eee;
+    font-size:14px;
+  }
+  .steps li{
+    margin-bottom:10px;
+  }
+  .btn{
+    display:inline-block;
+    padding:12px 20px;
+    margin:10px;
+    background:#b7ff00;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    transition:0.3s;
+  }
+  
+  .btn:hover{
+    background:#a0e600;
+    transform:translateY(-2px);
+  }
+  .hero{
+    text-align:center;
+    padding:100px 20px;
+  }
+  body{
+    font-family:'Inter', sans-serif;
+  }
+  .navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:white;
+    padding:15px 30px;
+    border-bottom:1px solid #eee;
+  }
+  
+  body{
+    margin-top:60px;
+  }
+  section{
+    max-width:900px;
+    margin:auto;
+    padding:60px 20px;
+    animation:fade 1s ease;
+  }
+  
+  @keyframes fade{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  .navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:white;
+    padding:15px 40px;
+    border-bottom:1px solid #eee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+  }
+  
+  .logo{
+    font-weight:bold;
+    font-size:18px;
+  }
+  
+  nav a{
+    margin-left:18px;
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+    transition:0.3s;
+  }
+  
+  
+  nav a:hover{
+    color:#b7ff00;
+  }
+  
+  .nav-btn{
+    background:#b7ff00;
+    padding:8px 14px;
+    border-radius:6px;
+  }
+  
+  .nav-btn:hover{
+    background:#a0e600;
+    color:#000;
+  }
+  
+  body{
+    margin-top:70px;
+  }
+  
+  .navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:white;
+    border-bottom:1px solid #eee;
+    padding:15px 80px; /* одинаковый отступ слева и справа */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+    box-sizing:border-box;
+  }
+  
+  .logo{
+    font-weight:bold;
+    font-size:18px;
+  }
+  
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:25px; /* вместо margin-left */
+  }
+  
+  .nav-links a{
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+    transition:0.3s;
+  }
+  
+  .nav-links a:hover{
+    color:#b7ff00;
+  }
+  
+  .nav-btn{
+    background:#b7ff00;
+    padding:8px 14px;
+    border-radius:6px;
+  }
+  
+  body{
+    margin-top:80px;
+  }
+  
+  .info-section{
+    background:#f9f9f9;
+    padding:80px 20px;
+  }
+  
+  .info-card{
+    max-width:800px;
+    margin:40px auto;
+    padding:40px;
+    background:white;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+    transition:0.3s;
+  }
+  
+  .info-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+  }
+  
+  .info-card h2{
+    margin-bottom:15px;
+  }
+  
+  .info-card p{
+    color:#555;
+  }
+  
+  .steps{
+    padding-left:20px;
+  }
+  
+  .steps li{
+    margin-bottom:10px;
+  }
+  
+  .highlight{
+    margin-top:15px;
+    font-weight:bold;
+    color:#b7ff00;
+  }
+  
+  .center-card{
+    text-align:center;
+  }
+  .hero{
+    text-align:center;
+    padding:140px 20px 100px;
+    background:linear-gradient(180deg, #ffffff 0%, #f3f5f2 100%);
+    position:relative;
+  }
+  .info-section{
+    padding:80px 20px;
+    margin-top:150px; /* чтобы карточки немного "заходили" */
+  }
+  .info-card{
+    max-width:800px;
+    margin:40px auto;
+    padding:40px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.06);
+    transition:0.3s;
+  }
+
+  /* ===== MOBILE VERSION ===== */
+@media (max-width: 768px) {
+
+  section {
+    padding: 40px 15px;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  /* navbar */
+  .navbar {
+    padding: 15px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* кнопки */
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/* маленькие телефоны */
+@media (max-width: 480px) {
+
+  .hero {
+    padding: 40px 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+}
+
+/* базовые кнопки */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 20px;
+  border-radius: 12px;
+
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  white-space: nowrap;
+  box-sizing: border-box;
+
+  max-width: 100%;
+}
+
+/* контейнер кнопок */
+.buttons,
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+
+  .buttons,
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+}
+/* ===== container ===== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===== about page ===== */
+.about-page {
+  padding: 80px 20px;
+  line-height: 1.7;
+}
+
+.about-page p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* values cards */
+.values {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.value-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 16px;
+  background: #f5f5f5;
+}
+
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+
+  .about-page {
+    padding: 50px 15px;
+  }
+
+  .about-page p {
+    font-size: 16px;
+  }
+
+  .values {
+    flex-direction: column;
+  }
+
+}
+/* начальное состояние */
+.value-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 16px;
+  background: #f5f5f5;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s ease;
+}
+
+/* когда видна */
+.value-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.value-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 16px;
+  background: #f5f5f5;
+
+  /* анимация появления */
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.3s ease;
+}
+
+/* появление при скролле */
+.value-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* hover эффект */
+.value-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
